@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: font1;
-    src: url(/LLPIXEL3.ttf);
+    src: url(LLPIXEL3.ttf);
 }
 
 * {
@@ -44,7 +44,7 @@ h1 span{
 
 .grid {
     margin: 12px;
-    background-image: url(/bg.jpg);
+    background-image: url(bg.jpg);
     background-size: 100%;
     display: grid;
     grid-template-columns: repeat(24, 30px);
@@ -62,14 +62,14 @@ h1 span{
 }
 
 .shooter {
-    background-image: url(/shooter.png);
+    background-image: url(shooter.png);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .invader {
-    background-image: url(/alien2.png);
+    background-image: url(alien2.png);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -77,7 +77,7 @@ h1 span{
 }
 
 .boom {
-    background-image: url(/boom.png);
+    background-image: url(boom.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
