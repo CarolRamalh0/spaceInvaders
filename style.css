@@ -42,22 +42,6 @@ h1 span{
     font-family: font1;
 }
 
-.gameOver h2{
-    font-size: 3em;
-    color: #ff0000;
-    margin: 30px;
-}
-
-.win h2{
-    font-size: 3em;
-    color: #44ff00;
-    margin: 30px;
-}
-.win, .gameOver p{
-    font-family: "Radio Canada Big", sans-serif;
-    font-size: 1em;
-}
-
 .grid {
     margin: 12px;
     background-image: url(/bg.jpg);
@@ -115,6 +99,12 @@ h1 span{
     background-color: rgba(0, 0, 0, 0.861);
 }
 
+.gameOver h2{
+    font-size: 3em;
+    color: #ff0000;
+    margin: 30px;
+}
+
 .win{
     display: none;
     flex-direction: column;
@@ -124,4 +114,13 @@ h1 span{
     height: 566px;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.861);
+}
+.win h2{
+    font-size: 3em;
+    color: #44ff00;
+    margin: 30px;
+}
+.win, .gameOver p{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 1em;
 }
